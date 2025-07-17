@@ -14,7 +14,7 @@ module "sandbox" {
     "Learn Tutorial" = "AFT"
     "Tester" = "Anthony Onyeneke"
     "Environment" = "Testing"
-    "OU" = "Infrastructure"  
+    "Organizational Unit" = "Infrastructure"  
   }
 
   change_management_parameters = {
