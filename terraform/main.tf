@@ -2,10 +2,10 @@ module "sandbox" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "anthony.onyeneke+shared@qucoon.com"
-    AccountName               = "shared"
+    AccountEmail              = "anthony.onyeneke+testing@qucoon.com"
+    AccountName               = "testing"
     ManagedOrganizationalUnit = "ou-5lim-3q405nzf"
-    SSOUserEmail              = "anthony.onyeneke+shared@qucoon.com"
+    SSOUserEmail              = "anthony.onyeneke+testing@qucoon.com"
     SSOUserFirstName          = "Testing"
     SSOUserLastName           = "AFT"
   }
@@ -26,5 +26,5 @@ module "sandbox" {
     group = "non-prod"
   }
 
-  account_customizations_name = "shared"
+  account_customizations_name = "testing"
 }
