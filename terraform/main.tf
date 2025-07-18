@@ -3,7 +3,7 @@ module "sandbox" {
 
   control_tower_parameters = {
     AccountEmail              = "anthony.onyeneke+sharedservice@qucoon.com"
-    AccountName               = "Shared Services Account"
+    AccountName               = "shared-services-account"
     ManagedOrganizationalUnit = "Infrastructure"
     SSOUserEmail              = "anthony.onyeneke+sharedservice@qucoon.com"
     SSOUserFirstName          = "Testing"
